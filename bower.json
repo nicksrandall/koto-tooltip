@@ -1,7 +1,9 @@
 {
   "name": "koto.Tooltip",
-  "version": "0.0.0",
-  "authors": ["Nick Randall <nick.randall@domo.com>"],
+  "version": "0.0.1",
+  "authors": [
+    "Nick Randall <nick.randall@domo.com>"
+  ],
   "description": "A tooltip for Koto charts",
   "main": "dist/chart.js",
   "moduleType": [

@@ -1,9 +1,9 @@
 {
   "name": "koto.Tooltip",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A tooltip for Koto charts",
   "main": "dist/chart.js",
-   "scripts": {
+  "scripts": {
     "test": "gulp",
     "test-browser": "gulp test-browser",
     "build": "gulp build",

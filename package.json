@@ -1,6 +1,6 @@
 {
   "name": "koto.tooltip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tooltip for Koto charts",
   "main": "dist/chart.js",
   "scripts": {

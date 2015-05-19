@@ -7,8 +7,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; }
 
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('d3'), require('koto')) : typeof define === 'function' && define.amd ? define(['d3', 'koto'], factory) : global.KotoTooltip = factory(global.d3, global.koto);
-})(this, function (d3, koto) {
+  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('d3'), require('koto')) : typeof define === 'function' && define.amd ? define(['d3', 'koto'], factory) : global.KotoTooltip = factory(global.d3, global.Koto);
+})(this, function (d3, Koto) {
   'use strict';
 
   var configs = [{
@@ -55,7 +55,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== 'function' 
 
   /* exported d3 */
 
-  var Tooltip = (function (_koto$Base) {
+  var Tooltip = (function (_Koto) {
     function Tooltip(selection) {
       _classCallCheck(this, Tooltip);
 
@@ -733,7 +733,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== 'function' 
       }
     }
 
-    _inherits(Tooltip, _koto$Base);
+    _inherits(Tooltip, _Koto);
 
     _createClass(Tooltip, [{
       key: 'preDraw',
@@ -743,7 +743,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== 'function' 
     }]);
 
     return Tooltip;
-  })(koto.Base);
+  })(Koto);
 
   // Export
   var chart = Tooltip;

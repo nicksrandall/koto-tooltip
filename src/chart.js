@@ -1,10 +1,10 @@
 /* exported d3 */
 import d3 from 'd3';
-import koto from 'koto';
+import Koto from 'koto';
 import configs from './configs';
 
 // Define Chart
-class Tooltip extends koto.Base {
+class Tooltip extends Koto {
   constructor(selection) {
     super(selection);
 

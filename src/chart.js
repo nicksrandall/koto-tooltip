@@ -796,5 +796,4 @@ class Tooltip extends koto.Base {
 }
 
 // Export
-koto.Tooltip = Tooltip;
-export default koto.Tooltip;
+export default Tooltip;

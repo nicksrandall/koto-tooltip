@@ -1,5 +1,5 @@
 // Initialize
-var chart = new koto.Tooltip(d3.select('#chart'));
+var chart = new KotoTooltip(d3.select('#chart'));
 
 // Render
 var data = [

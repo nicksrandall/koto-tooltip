@@ -7,7 +7,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) subClass.__proto__ = superClass; }
 
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('d3'), require('koto')) : typeof define === 'function' && define.amd ? define(['d3', 'koto'], factory) : global.koto.Tooltip = factory(global.d3, global.koto);
+  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('d3'), require('koto')) : typeof define === 'function' && define.amd ? define(['d3', 'koto'], factory) : global.KotoTooltip = factory(global.d3, global.koto);
 })(this, function (d3, koto) {
   'use strict';
 
@@ -746,8 +746,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== 'function' 
   })(koto.Base);
 
   // Export
-  koto.Tooltip = Tooltip;
-  var chart = koto.Tooltip;
+  var chart = Tooltip;
 
   return chart;
 });

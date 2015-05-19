@@ -74,6 +74,7 @@ gulp.task('build', ['lint-src', 'clean'], function(done) {
   esperanto.bundle({
     base: 'src',
     entry: config.entryFileName,
+    strict: true
   }).then(function(bundle) {
     var res = bundle.toUmd({
       sourceMap: true,
@@ -89,7 +90,7 @@ gulp.task('build', ['lint-src', 'clean'], function(done) {
     $.file(exportFileName + '.js', res.code, { src: true })
       .pipe($.plumber())
       .pipe($.sourcemaps.init({ loadMaps: true }))
-      .pipe($.babel({ blacklist: ['useStrict'] }))
+      .pipe($.babel({ blacklist: ['useStrict']}))
       .pipe($.sourcemaps.write('./', {addComment: false}))
       .pipe(gulp.dest(destinationFolder))
       .pipe($.filter(['*', '!**/*.js.map']))

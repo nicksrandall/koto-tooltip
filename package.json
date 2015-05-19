@@ -1,5 +1,5 @@
 {
-  "name": "koto.Tooltip",
+  "name": "koto.tooltip",
   "version": "0.0.1",
   "description": "A tooltip for Koto charts",
   "main": "dist/chart.js",
@@ -80,7 +80,7 @@
   },
   "babelBoilerplateOptions": {
     "entryFileName": "chart",
-    "exportVarName": "koto.Tooltip",
+    "exportVarName": "KotoTooltip",
     "mochaGlobals": [
       "stub",
       "spy",

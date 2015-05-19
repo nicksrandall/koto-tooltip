@@ -9,4 +9,4 @@ var data = [
   [{name: 'West', value: 61}]
 ];
 
-chart.draw(data);
+console.log(chart);

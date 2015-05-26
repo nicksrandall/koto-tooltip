@@ -1,6 +1,6 @@
 {
   "name": "koto-tooltip",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "authors": [
     "Nick Randall <nick.randall@domo.com>"
   ],
@@ -25,6 +25,6 @@
     "tests"
   ],
   "dependencies": {
-    "koto": "~0.0.45"
+    "koto": "~0.0.47"
   }
 }
